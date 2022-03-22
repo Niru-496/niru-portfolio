@@ -17,7 +17,7 @@ const Projects = () => {
 		{
 			id: 2,
 			project_name: "tata-Mg1-clone",
-			image: "/project_images/tata1",
+			image: "/project_images/tata1.jpg",
 			project_desc:
 				"This is the clone of TATA 1mg website. A web application to buy medicines and health products. This is our team collaboration project at Full Stack-development bootcamp in Masai School. ",
 			deploy_link: "https://tata-mg1-clone-amber.vercel.app/",
