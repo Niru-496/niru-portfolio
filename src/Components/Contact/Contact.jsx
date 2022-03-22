@@ -71,6 +71,7 @@ const footerData = [
 		title: "HackerRank",
 		display: "HackerRank",
 		link: "https://www.hackerrank.com/niranjan_fw14_41",
+		icon: <FaHackerrank className="commonIconsFooter" />,
 	},
 	{
 		id: 5,
