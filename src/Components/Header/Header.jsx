@@ -12,7 +12,7 @@ const Banner = () => {
           <br />
           <H1>Hi 👋 I'm </H1>
           <span>
-            <h2 data-text="Vishal Rathod">Vishal Rathod</h2>
+            <h2 data-text="Niranjan Kumar M">Niranjan Kumar M</h2>
           </span>
           <br />
           <P>
@@ -22,8 +22,8 @@ const Banner = () => {
           </P>
           <HeaderButtons>
             <A
-              target="_blank"
-              rel="noreferrer"
+              // target="_blank"
+              // rel="noreferrer"
               href="/resume/niranjan_fw14_41"
             >
               Resume
