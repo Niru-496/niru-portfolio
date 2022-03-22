@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin, FaHackerrank } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import {
   AboutDiv,
@@ -24,44 +24,58 @@ const socialMediaLinks = [
 		link: "https://github.com/Niru-496",
 		icon: <FaGithub />,
 	},
+	{
+		id: 2,
+		link: "https://www.hackerrank.com/niranjan_fw14_41",
+		icon: <FaHackerrank />,
+	},
 ];
 const About = () => {
   return (
-    <Container className="about">
-      <br />
-      <AboutDiv>
-        <Column>
-          <Img src="/images/pic.jpg" alt="my image" />
-        </Column>
-        <Column>
-          <H1>About Me</H1>
-          <AboutInfo>
-            <AboutInfoP>
-              A dedicated Full Stack Web developer with a specialized skill set
-              that enables me to build robust web applications. I am adept in
-              both front-end and back-end and have an eye for performance and
-              accuracy.
-            </AboutInfoP>
-            <AboutInfoP>
-              I am adaptable, proficient in remote collaboration, and committed
-              to achieving organizational goals. With a knack for
-              problem-solving and analytics, I am passionate about solving
-              Algorithmic problems with a good hold on Data Structures.
-            </AboutInfoP>
-          </AboutInfo>
-          <HeaderUl>
-            {socialMediaLinks.map((item) => (
-              <JelloHori key={item.id}>
-                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  <HeaderLi>{item.icon}</HeaderLi>
-                </a>
-              </JelloHori>
-            ))}
-          </HeaderUl>
-        </Column>
-      </AboutDiv>
-      <br />
-    </Container>
+		<Container className="about">
+			<br />
+			<AboutDiv>
+				<Column>
+					<Img src="/images/pic.jpg" alt="my image" />
+				</Column>
+				<Column>
+					<H1>About Me</H1>
+					<AboutInfo>
+						<AboutInfoP>
+							Observant and detail-oriented aspiring full-stack
+							developer with a specialization in MERN stack. Self-
+							motivated and curious, with a keen interest in
+							building user-friendly websites. Looking forward to
+							honing my skills in a challenging work environment.
+						</AboutInfoP>
+						<AboutInfoP>
+							Well, I'm good at listening, the flexibility to
+							handle changes that occurs in both personal and
+							professional life In technical Skills I'm very good
+							at advanced javascript. Because of my consistent
+							nature, I'm able to manage my time according to
+							changes in situations. I am passionate about solving
+							Algorithmic problems with a good hold on Data
+							Structures.
+						</AboutInfoP>
+					</AboutInfo>
+					<HeaderUl>
+						{socialMediaLinks.map((item) => (
+							<JelloHori key={item.id}>
+								<a
+									href={item.link}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<HeaderLi>{item.icon}</HeaderLi>
+								</a>
+							</JelloHori>
+						))}
+					</HeaderUl>
+				</Column>
+			</AboutDiv>
+			<br />
+		</Container>
   );
 };
 
