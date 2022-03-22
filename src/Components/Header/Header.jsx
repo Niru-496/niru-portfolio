@@ -25,7 +25,7 @@ const Banner = () => {
 						<A
 							target="_blank"
 							rel="noreferrer"
-							href="https://drive.google.com/file/d/1SDujF1eXc0dtcmvNnM0sMnHTw8o_QD3A/view?usp=sharing"
+							href="/resume/resume.pdf"
 						>
 							Resume
 						</A>
