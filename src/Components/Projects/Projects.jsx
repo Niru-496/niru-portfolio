@@ -30,24 +30,21 @@ const Projects = () => {
 				<FaCss3 />,
 			],
 		},
-		// {
-		// 	id: 4,
-		// 	project_name: "SEEKHO E-library",
-		// 	image: "/project_images/Seekho.png",
-		// 	project_desc:
-		// 		"An online E library built using React JS, Express js, Node JS and Mongodb.",
-		// 	deploy_link: "https://seekho-frontend-vcow10kar.vercel.app/",
-		// 	repo_link: "https://github.com/Vishal-080/seekho-project",
-		// 	tech_stack: [
-		// 		<SiMongodb />,
-		// 		<FaNodeJs />,
-		// 		<FaReact />,
-		// 		<FaNodeJs />,
-		// 		<FaHtml5 />,
-		// 		<FaCss3 />,
-		// 		<FaJs />,
-		// 	],
-		// },
+		{
+			id: 4,
+			project_name: "JIO-Mart- Clone",
+			image: "/project_images/jio1.jpg",
+			project_desc: "https://github.com/jibi966/JioMart-clone",
+			deploy_link: "https://jio-mart-clone.vercel.app/",
+			repo_link: "https://github.com/jibi966/JioMart-clone",
+			tech_stack: [
+				<SiMongodb />,
+				<FaNodeJs />,
+				<FaHtml5 />,
+				<FaCss3 />,
+				<FaJs />,
+			],
+		},
 	];
 
 	return (
