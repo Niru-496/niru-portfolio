@@ -22,9 +22,9 @@ const Banner = () => {
           </P>
           <HeaderButtons>
             <A
-              // target="_blank"
-              // rel="noreferrer"
-              href="/resume/niranjan_fw14_41"
+              target="_blank"
+              rel="noreferrer"
+              href="/resume/resume"
             >
               Resume
             </A>
