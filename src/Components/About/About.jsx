@@ -14,21 +14,16 @@ import {
 
 import { Container, H1 } from "../../SharedStyles/SharedStyles";
 const socialMediaLinks = [
-  {
-    id: 0,
-    link: "https://www.linkedin.com/in/vishalrathod01/",
-    icon: <FaLinkedin />,
-  },
-  {
-    id: 1,
-    link: "https://github.com/Vishal-080",
-    icon: <FaGithub />,
-  },
-  {
-    id: 2,
-    link: "https://twitter.com/Vishal_Rathod01",
-    icon: <FaTwitter />,
-  },
+	{
+		id: 0,
+		link: "https://www.linkedin.com/in/niranjan-kumar-m-b12a8a178/",
+		icon: <FaLinkedin />,
+	},
+	{
+		id: 1,
+		link: "https://github.com/Niru-496",
+		icon: <FaGithub />,
+	},
 ];
 const About = () => {
   return (
@@ -36,7 +31,7 @@ const About = () => {
       <br />
       <AboutDiv>
         <Column>
-          <Img src="/images/vishalT.webp" alt="my image" />
+          <Img src="/images/pic.jpg" alt="my image" />
         </Column>
         <Column>
           <H1>About Me</H1>
