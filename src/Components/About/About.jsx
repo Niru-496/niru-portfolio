@@ -42,11 +42,7 @@ const About = () => {
 					<H1>About Me</H1>
 					<AboutInfo>
 						<AboutInfoP>
-							Observant and detail-oriented aspiring full-stack
-							developer with a specialization in MERN stack. Self-
-							motivated and curious, with a keen interest in
-							building user-friendly websites. Looking forward to
-							honing my skills in a challenging work environment.
+							Cybersecurity professional with 2 years in SOC monitoring, SIEM tools, and DLP optimization. Skilled in Splunk SIEM, improving alert accuracy by 25%, and reducing false positives by 30%. Experienced in incident response, detection rule creation, and aligning security with compliance frameworks. Passionate about enhancing digital security.
 						</AboutInfoP>
 						<AboutInfoP>
 							Well, I'm good at listening, the flexibility to
