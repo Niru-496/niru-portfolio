@@ -27,15 +27,15 @@ const footerData = [
 	{
 		id: 0,
 		title: "Mobile",
-		display: "+91-7093951691",
-		link: "tel:+917093951691",
+		display: "+91-9493230671",
+		link: "tel:+9493230671",
 		icon: <FaPhone className="commonIconsFooter" />,
 	},
 	{
 		id: 1,
 		title: "Email",
-		display: "niru.1998.496@gmail.com",
-		link: "mailto:niru.1998.496@gmail.com",
+		display: "niranjan221997@hmail.com",
+		link: "mailto:niranjan221997@hmail.com",
 		icon: <SiGmail className="commonIconsFooter" />,
 	},
 	{
