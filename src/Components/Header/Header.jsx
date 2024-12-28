@@ -15,11 +15,7 @@ const Banner = () => {
 						<h2 data-text="Niranjan Kumar M">Niranjan Kumar M</h2>
 					</span>
 					<br />
-					<P>
-						An enthusiastic Full Stack Web Developer with a strong
-						set of technical as well as non-technical skills and a
-						dedication towards creating useful and interactive web
-						applications.
+					<P>An enthusiastic Cybersecurity Professional with a strong set of technical and analytical skills, dedicated to enhancing organizational security. Proficient in SOC monitoring, incident response, and optimizing SIEM tools to create effective and proactive security measures. Passionate about safeguarding digital ecosystems.
 					</P>
 					<HeaderButtons>
 						<A
